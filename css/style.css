@@ -1,2 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #1abc9c, #27ae60);
+}
+
+.container {
+  width: 600px;
+  height: 300px;
+  margin: 150px auto;
+  display: flex;
+}
+
+.container .buttonBox {
+  height: 300px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
+.container .buttonBox .fa {
+  cursor: pointer;
+}
+
+.container #carousel {
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  flex: 4;
+}
+
+.container #carousel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 2000px;
+  height: 300px;
+}
+
+.container #carousel ul li {
+  float: left;
+  height: 300px;
+}
 
 /*# sourceMappingURL=style.css.map */
